@@ -1,0 +1,66 @@
+.appContainer {
+  display: flex;
+}
+
+.rentalsContainer {
+  margin-top: 20px;
+  flex: 1;
+  /* display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap; */
+}
+.rental {
+  display: flex;
+  border: 1px solid #ddd;
+  margin-bottom: 30px;
+  min-height: 150px;
+  background-color: #fff;
+}
+.rental h5 {
+  margin-bottom: 0;
+}
+.rentalImage {
+  flex: .3;
+  background-size: cover;
+  background-position: center;
+}
+.rentalText {
+  flex: 1;
+  padding: 5px 0 0 20px;
+}
+.shoppingCartContainer {
+  margin-top: 20px;
+  flex: .4;
+  margin-left: 20px;
+}
+.removeItem {
+  cursor: pointer;
+}
+.cartToggler {
+  margin-left: auto;
+}
+img.cartImage {
+  width: 30px;
+  margin-right: 10px;
+}
+.rentalPrice {
+  padding: 5px 5px 0 0;
+}
+.addToCart {
+  margin-top: 10px;
+}
+.rentalRating {
+  color: #f60;
+}
+.rentalDollars {
+  font-weight: bold;
+  font-size: 1.2em;
+}
+.rentalType {
+  font-size: .8em;
+  font-style: italic;
+  color: #999;
+}
+body {
+  background-color: #fdede2;
+}
